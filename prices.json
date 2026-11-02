@@ -1,0 +1,188 @@
+{
+  "verified_at": "2026-10-30",
+  "currency_note": "美元折算默认 7.25，仅为用户可修改的预算假设，不是实时汇率；未含税费及代付溢价。",
+  "items": [
+    {
+      "id": "bitbrowser",
+      "name": "比特浏览器",
+      "price": 50,
+      "unit": "CNY/月",
+      "source_url": "https://www.bitbrowser.cn/price/",
+      "verified_at": "2026-10-30",
+      "verification_status": "verified",
+      "note": "免费 10 窗口（1 人）；50 窗口含 2 员工（¥50）；100 窗口含 4 员工（¥75）；200 窗口含 8 员工（¥125）",
+      "tiers": [
+        {
+          "windows": 10,
+          "members": 1,
+          "price": 0
+        },
+        {
+          "windows": 50,
+          "members": 2,
+          "price": 50
+        },
+        {
+          "windows": 100,
+          "members": 4,
+          "price": 75
+        },
+        {
+          "windows": 200,
+          "members": 8,
+          "price": 125
+        }
+      ],
+      "payment": "支持支付宝、微信支付及对公结算"
+    },
+    {
+      "id": "adspower",
+      "name": "AdsPower",
+      "price": 21,
+      "unit": "USD/月",
+      "source_url": "https://www.adspower.com/pricing",
+      "verified_at": "2026-10-30",
+      "verification_status": "verified",
+      "note": "官方 Professional 档位：10 窗口 $9/月，50 窗口 $21/月，100 窗口 $36/月（含 1 管理员）；每额外成员 $5/月（参考对照，无外跳推广）",
+      "free_windows": 2,
+      "tiers": [
+        [
+          10,
+          9
+        ],
+        [
+          50,
+          21
+        ],
+        [
+          100,
+          36
+        ]
+      ],
+      "extra_member": 5,
+      "included_members": 1,
+      "api_source": "https://api.adspower.net/payment/official-site/price",
+      "payment": "支持支付宝、微信支付、银联及外币卡"
+    },
+    {
+      "id": "morelogin",
+      "name": "MoreLogin",
+      "price": 25,
+      "unit": "USD/30天",
+      "source_url": "https://support.morelogin.com/en/articles/10137594-subscription-packages",
+      "verified_at": "2026-10-30",
+      "verification_status": "verified",
+      "note": "50 窗口含 2 人；每额外成员 $5/30天。按 12 个 30 天周期估算，非 365 天承诺（参考对照，无外跳推广）",
+      "free_windows": 2,
+      "tiers": [
+        [
+          10,
+          9
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          50,
+          25
+        ],
+        [
+          100,
+          35
+        ],
+        [
+          150,
+          45
+        ],
+        [
+          200,
+          55
+        ],
+        [
+          250,
+          65
+        ],
+        [
+          400,
+          80
+        ],
+        [
+          1000,
+          160
+        ]
+      ],
+      "extra_member": 5,
+      "included_members": 2,
+      "payment": "支持支付宝、微信支付、信用卡及加密货币"
+    },
+    {
+      "id": "morelogin-phone",
+      "name": "MoreLogin 云手机",
+      "price": null,
+      "unit": "按设备/时长",
+      "source_url": "https://www.morelogin.com/pricing",
+      "verified_at": "2026-10-30",
+      "verification_status": "dynamic",
+      "note": "按云手机设备实例与开机时长弹性计费，适合 TikTok / 社媒矩阵真机环境隔离"
+    },
+    {
+      "id": "rainyun",
+      "name": "雨云香港/美日云主机",
+      "price": 20,
+      "unit": "CNY/月",
+      "source_url": "https://www.rainyun.com",
+      "verified_at": "2026-10-30",
+      "verification_status": "verified",
+      "note": "香港/美国/日本免备案 KVM 云主机 ¥20–35/月起，支持支付宝/微信，适合挂机运行店铺 RPA 与独立站"
+    },
+    {
+      "id": "fingerprint-ref",
+      "name": "指纹浏览器免费版（无外链参考对照）",
+      "price": 0,
+      "unit": "CNY/月起",
+      "source_url": "https://www.bitbrowser.cn/",
+      "verified_at": "2026-10-30",
+      "verification_status": "verified",
+      "note": "永久免费环境起步；团队版支持海量窗口与权限分配（参考对照，同规格推荐选比特浏览器）",
+      "go_path": "/go/bitbrowser",
+      "payment": "支持支付宝、微信支付"
+    },
+    {
+      "id": "lisahost",
+      "name": "丽萨主机双 ISP 原生住宅 IP",
+      "price": 68,
+      "unit": "CNY/月起",
+      "source_url": "https://lisahost.com/",
+      "verified_at": "2026-10-30",
+      "verification_status": "verified",
+      "note": "美区/港区双 ISP 原生家宽住宅 IP VPS，100% 独享纯净 IP，支持支付宝付款",
+      "go": "lisahost",
+      "payment": "支持支付宝付款"
+    },
+    {
+      "id": "duoplus",
+      "name": "DuoPlus 跨境云手机",
+      "price": 65,
+      "unit": "CNY/台/月起",
+      "source_url": "https://www.duoplus.cn/",
+      "verified_at": "2026-10-30",
+      "verification_status": "verified",
+      "note": "TikTok 跨境短视频与矩阵养号云真机，原生安卓系统，真机环境隔离，支持支付宝/USDT",
+      "go": "duoplus",
+      "payment": "支持支付宝、USDT"
+    },
+    {
+      "id": "bwh",
+      "name": "搬瓦工 CN2 GIA 专线中转",
+      "price": 2175.0,
+      "unit": "CNY/年起",
+      "source_url": "https://bwh89.net/",
+      "verified_at": "2026-10-30",
+      "verification_status": "verified",
+      "note": "电商专用 40G CN2 GIA ECOMMERCE 方案官方正价 $299.99/年（约 ¥2,175/年，月摊销 ¥181.2）；CN2 GIA 低延迟专线，跨境 ERP 与店铺自动化中转枢纽",
+      "go": "bwh",
+      "payment": "支持支付宝、PayPal、信用卡"
+    }
+  ]
+}
